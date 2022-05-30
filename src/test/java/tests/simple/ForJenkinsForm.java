@@ -2,10 +2,8 @@ package tests.simple;
 
 import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
+import helpers.Attach;
+import org.junit.jupiter.api.*;
 import pages.RegistrationFormPage;
 
 import static java.lang.String.format;
