@@ -9,7 +9,7 @@ import pages.RegistrationFormPage;
 import static java.lang.String.format;
 
 @Tag("demoqa")
-public class ForJenkinsForm {
+public class ForJenkinsForm extends ForAttachs{
     Faker faker = new Faker();
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
 
