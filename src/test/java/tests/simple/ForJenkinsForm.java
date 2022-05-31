@@ -13,16 +13,7 @@ public class ForJenkinsForm extends ForAttachs{
     Faker faker = new Faker();
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
 
-    @BeforeAll
-    @DisplayName("Открытие браузера")
-    @Test
-    static void setUp() {
-        Configuration.holdBrowserOpen = true;
-        Configuration.baseUrl = "https://demoqa.com";
-        Configuration.browserSize = "2560x1440";
-    }
-
-    // parameters
+        // parameters
     String name = faker.name().firstName(),
             lastname = faker.name().lastName(),
             userEmail = faker.internet().emailAddress(),
