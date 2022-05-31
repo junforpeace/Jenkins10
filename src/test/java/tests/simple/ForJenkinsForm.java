@@ -15,10 +15,11 @@ public class ForJenkinsForm {
 
     @BeforeAll
     @DisplayName("Открытие браузера")
+    @Test
     static void setUp() {
         Configuration.holdBrowserOpen = true;
         Configuration.baseUrl = "https://demoqa.com";
-        Configuration.browserSize = "1920x1080";
+        Configuration.browserSize = "2560x1440";
     }
 
     // parameters
